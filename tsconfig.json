@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",          // Or a later version like ES2022
+    "module": "ES2020",          // Use ES2020 module system
+    "moduleResolution": "node",  // Use Node.js module resolution
+    "lib": ["es2020"],
+    "rootDir": "src",
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"]
+}
